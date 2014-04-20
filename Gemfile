@@ -4,6 +4,8 @@ ruby '2.0.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
 
+gem 'bloggy'
+
 group :development, :test do
   gem 'rspec-rails', '2.13.1'
 end
