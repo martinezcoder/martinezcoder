@@ -1,0 +1,40 @@
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>@martinezcoder</h2>
+          <p class="lead">Building apps</p>
+
+          <div class="header-carousel">
+            <div id="carousel-news" class="carousel slide">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-news" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-news" data-slide-to="1"></li>
+                <li data-target="#carousel-news" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner well">
+                <div class="item active">
+                  UNO
+                </div>
+                <div class="item">
+                  dos
+                </div>
+                <div class="item">
+                  TRES
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <script>
+    // Carousel transition
+    $('header .carousel').carousel({
+      interval: 3000
+      })
+  </script>

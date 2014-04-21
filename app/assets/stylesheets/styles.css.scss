@@ -32,7 +32,7 @@ nav.navbar{
   position: fixed;
   top: 0px; //  top: -72px;
   margin-bottom: 0px;
-  padding: 10px 0px 10px 0px;
+  padding: 5px 0px 0px 0px;
   width: 100%;
   border-radius: 0px;
   transition: all 0.2s;
@@ -60,7 +60,7 @@ nav.navbar.fixed-to-top{
   border: none;
   border-bottom: 1px solid #eee;
   background:solid #fff;
-  opacity: 0.95;
+  opacity: 0.75;
 //  display: none;
 }
 
@@ -87,3 +87,46 @@ nav.navbar.fixed-to-top{
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+/*-----------------------------------------------------------------------------------*/
+/* HEADER 
+ */
+
+ header {
+   padding: 150px 0px 0px 0px;
+   height: 960px;
+   background: url('06.jpg');
+   background-color: white!important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   color: white;
+ }
+
+ header p.lead{
+   font-size: 30px;
+ }
+
+
+ header .carousel-indicators .active {
+   opacity: 0.5;
+ }
+
+ header .carousel-indicators {
+    bottom: -63px;
+ }
+
+ header .carousel-indicators li {
+   display: inline-block;
+   margin: 1px;
+   border: 1px solid #666666;
+   border-radius: 10px;
+   text-indent: -999px;
+   cursor: pointer;
+ }
+
+ .well {
+   border: 1px solid #eee;
+   background:solid #fff;
+   opacity: 0.75;
+   padding: 19px;
+   margin-bottom: 20px;
+ }
