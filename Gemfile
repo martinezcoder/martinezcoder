@@ -14,7 +14,8 @@ group :test do
 end
 
 # Use sqlite3 as the database for Active Record
-gem 'sqlite3', '1.3.8'
+#gem 'sqlite3', '1.3.8'
+gem 'pg', '0.17.1'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
