@@ -3,6 +3,7 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 @import "bootstrap";
+@import "iconfont.css";
 
 /*-----------------------------------------------------------------------------------*/
 /* GENERAL
@@ -67,7 +68,7 @@ nav.navbar.fixed-to-top{
 .navbar-default .navbar-nav>li>a {
   color: #aaa;
   font-size: 1.2em;
- }
+}
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
    color: #3A3A3A;
@@ -130,3 +131,74 @@ nav.navbar.fixed-to-top{
    padding: 19px;
    margin-bottom: 20px;
  }
+
+/*-----------------------------------------------------------------------------------*/
+/*	FEATURES
+/*-----------------------------------------------------------------------------------*/
+
+.features{
+	overflow: hidden;
+	padding: 150px 0px 150px 0px;
+	min-height: 400px;
+	color: black;
+}
+
+.features p {
+	font-weight: 400;
+}
+
+.features h2{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.features .circle{
+	box-sizing: border-box;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 33px;
+	width: 150px;
+	height: 150px;
+	border: 2px solid #ffffff;
+	border-radius: 100%;
+	text-align: center;
+	
+}
+
+.features span.glyphicon, .features i{
+	margin-top: 3px;
+	color: #ffffff;
+	font-size: 5em;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	SOCIAL
+/*-----------------------------------------------------------------------------------*/
+
+.social{
+	overflow: hidden;
+	padding: 80px 0px 150px 0px;
+	min-height: 350px;
+	background: image-url('06.jpg');
+	background-position: center top;
+	background-repeat: repeat-x;
+	color: white;
+}
+
+.social h2{
+	color: white;
+}
+
+.social a {
+	margin-left: 10px;
+	color: #FFF;
+	font-size: 5em;
+	transition: all 0.3s;
+
+  &:hover {
+  	text-decoration: none;
+	  cursor: pointer;
+  }
+}
+
