@@ -14,34 +14,14 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6,h6.h1,.h2,.h3,.h4,.h5,.h6{
+  color: #3a3a3a;
   font-weight: 700;
   font-family: 'Roboto Condensed', sans-serif;
-}
-
-h1,h3,h4,h5,h6,h6.h1,.h2,.h3,.h4,.h5,.h6{
-  color: #3a3a3a;
-}
-
-h2 {
-  color: white
 }
 
 p{
   font-size: 1.2em;
 }
-
-/*-----------------------------------------------------------------------------------*/
-/*	KEY COLOR
-/*-----------------------------------------------------------------------------------*/
-
-/*---- Typography ----*/
-header h1,
-.payoff h1,
-.details .carousel,
-.social a:hover{
-	color: #555555;
-}
-
 
 	
 /*-----------------------------------------------------------------------------------*/
@@ -114,10 +94,7 @@ nav.navbar.fixed-to-top{
  header {
    padding: 150px 0px 0px 0px;
    height: 960px;
-//   background: image-url("06.jpg");
-//   background: image-url("19.jpg");
-//   background: image-url("34.jpg");
-   background: image-url("46.jpg");
+   background: image-url("06.jpg");
    background-color: white!important;
    background-size: cover;
    background-repeat: no-repeat;
@@ -128,42 +105,26 @@ nav.navbar.fixed-to-top{
    font-size: 30px;
  }
 
-
- header .carousel-indicators .active {
-   opacity: 0.5;
- }
-
- header .carousel-indicators {
-    bottom: -63px;
- }
-
- header .carousel-indicators li {
-   display: inline-block;
-   margin: 1px;
-   border: 1px solid #666666;
-   border-radius: 10px;
-   text-indent: -999px;
-   cursor: pointer;
+ header p.lead, h3 {
+   color: white;
  }
 
  header .item {
    color: #666;
  }
 
- .well {
-   border: 1px solid #eee;
-   background:solid #fff;
-   opacity: 0.75;
-   padding: 19px;
-   margin-bottom: 20px;
+ header h1,
+ .social a:hover {
+    color: #555555;
  }
+
 
 /*-----------------------------------------------------------------------------------*/
 /*	FEATURES
 /*-----------------------------------------------------------------------------------*/
 
 .features{
-  background: #222; //image-url("34.jpg");
+  background: #222; 
 	overflow: hidden;
 	padding: 150px 0px 150px 0px;
 	min-height: 400px;
@@ -208,8 +169,6 @@ nav.navbar.fixed-to-top{
 	overflow: hidden;
 	padding: 80px 0px 150px 0px;
 	min-height: 350px;
-//	background: image-url('06.jpg');
-  background: image-url("19.jpg");
 	background-position: center top;
 	background-repeat: repeat-x;
 	color: white;
