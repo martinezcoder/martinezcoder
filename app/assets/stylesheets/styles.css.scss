@@ -107,11 +107,6 @@ nav.navbar{
    color: #666;
  }
 
- header h1,
- .social a:hover {
-    color: #555555;
- }
-
 /* line */
 
  #line {
@@ -188,6 +183,7 @@ nav.navbar{
 	transition: all 0.3s;
 
   &:hover {
+    color: #555555;
   	text-decoration: none;
 	  cursor: pointer;
   }
