@@ -88,11 +88,7 @@ nav.navbar{
  header {
    padding: 150px 0px 0px 0px;
    height: 960px;
-   background: image-url("06.jpg");
-   background-color: white!important;
-   background-size: cover;
-   background-repeat: no-repeat;
-   color: white;
+   background-color: #6a7179!important;
  }
 
  header p.lead{
@@ -121,12 +117,10 @@ nav.navbar{
 /*-----------------------------------------------------------------------------------*/
 
 .features{
-  background: #222; 
-  background: image-url("02.jpg");
+  background-color: #6a7179!important;
 	overflow: hidden;
 	padding: 150px 0px 150px 0px;
 	min-height: 400px;
-	color: black;
 }
 
 .features p {
