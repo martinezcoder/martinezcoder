@@ -1,5 +1,6 @@
 Martinezcoder::Application.routes.draw do
-  get "landing_pages/home"
+#  get "landing_pages/home"
+#  get "landing_pages/show"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
